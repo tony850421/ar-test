@@ -1,4 +1,4 @@
 function pressButton() {
-    var box = document.getElementById('boxExample');
-    box.setAttribute('position', '0 0 -1');
+    var box = document.getElementById('monkeyObject');
+    box.setAttribute('position', '1 0 -1');
 }

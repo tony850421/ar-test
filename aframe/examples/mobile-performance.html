@@ -6,25 +6,25 @@
 
 <body>
 	<!-- enable artoolkit on this scene -->
-	<!--<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_matrix; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 180'>-->
-		 <!--<a-assets>-->
-		    <!--<a-asset-item id="tree-obj" src="monkey.obj"></a-asset-item>-->
-		    <!--<a-asset-item id="tree-mtl" src="monkey.mtl"></a-asset-item>-->
-		<!--</a-assets>-->
+	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_matrix; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 180'>
+		 <a-assets>
+		    <a-asset-item id="tree-obj" src="monkey.obj"></a-asset-item>
+		    <a-asset-item id="tree-mtl" src="monkey.mtl"></a-asset-item>
+		</a-assets>
 
-		<!--<a-marker-camera type='pattern' preset='custom' url='../../data/data/patt.dirstuff'>-->
-			<!--<a-entity scale="0.4 0.4 0.4" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>-->
-		<!--</a-marker-camera>-->
+		<a-marker-camera type='pattern' preset='custom' url='../../data/data/patt.dirstuff'>
+			<a-entity id="monkeyObject" scale="0.4 0.4 0.4" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+		</a-marker-camera>
 
-	<!--</a-scene>-->
+	</a-scene>
 
 	<a onclick="pressButton()" type="button" class="btn" style="width: 50px !important; height: 50px !important;
 	top: 20px !important; left: 20px !important; position: absolute !important; z-index: 50 !important; background-color: blue;"></a>
 
-	<a-scene>
-		<a-box id="boxExample" color="#EF2D5E" position="0 1 -4"></a-box>
-		<a-camera></a-camera>
-	</a-scene>
+	<!--<a-scene>-->
+		<!--<a-box id="boxExample" color="#EF2D5E" position="0 1 -4"></a-box>-->
+		<!--<a-camera></a-camera>-->
+	<!--</a-scene>-->
 </body>
 <script src="../src/examples.js"></script>
 </html>
