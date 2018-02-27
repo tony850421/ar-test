@@ -1,5 +1,7 @@
-var a = document.querySelector('a');
-console.log(a);
+function pressButton() {
+    var a = document.querySelector('a');
+    console.log(a);
+}
 
 AFRAME.registerComponent('press', {
     schema: {type: 'number'},

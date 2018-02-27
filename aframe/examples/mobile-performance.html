@@ -5,7 +5,6 @@
 <script src="../build/aframe-ar.js"></script>
 
 <body>
-</div>
 	<!-- enable artoolkit on this scene -->
 	<!--<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_matrix; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 180'>-->
 		 <!--<a-assets>-->
@@ -19,13 +18,12 @@
 
 	<!--</a-scene>-->
 
-<a-scene>
-	<a-box color="#EF2D5E" position="0 1 -4"></a-box>
+	<a type="button" class="btn" press="5"></a>
 
-	<a type="button" class="btn" press="5" change-color-on-hover="color: blue"></a>
-
-	<a-camera></a-camera>
-</a-scene>
+	<a-scene>
+		<a-box color="#EF2D5E" position="0 1 -4"></a-box>
+		<a-camera></a-camera>
+	</a-scene>
 </body>
 <script src="../src/examples.js"></script>
 </html>
