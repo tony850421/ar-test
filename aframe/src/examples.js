@@ -17,3 +17,7 @@ AFRAME.registerComponent('press_click', {
         });
     }
 });
+
+document.querySelector('a-entity').addEventListener('click', function (evt) {
+    console.log('This 2D element was clicked!');
+});
