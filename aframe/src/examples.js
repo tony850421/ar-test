@@ -1,12 +1,12 @@
+var a = document.querySelector('a');
+console.log(a);
+
 AFRAME.registerComponent('press', {
     schema: {type: 'number'},
 
     init: function () {
         var stringToLog = this.data;
         console.log(stringToLog);
-
-        var a = document.querySelector('a');
-        console.log(a);
     },
 
     update: function () {
