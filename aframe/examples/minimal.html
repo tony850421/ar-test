@@ -2,9 +2,8 @@
 <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
 <script src="../build/aframe-ar.min.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
-khola mundo cruel
 	<a-scene embedded arjs='sourceType: webcam;'>
-		<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
+		<a-box tracked-controls="controller: 0; idPrefix: OpenVR" position='0 0.5 0' material='opacity: 0.5;'></a-box>
 		<a-marker-camera type='pattern' preset='custom' url='../data/data/patt.dirstuff'></a-marker-camera>
 	</a-scene>
 </body>
