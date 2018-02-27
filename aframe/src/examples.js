@@ -1,4 +1,4 @@
-AFRAME.registerComponent('change-color-on-hover', {
+AFRAME.registerComponent('pressClick', {
     schema: {
         color: {default: 'red'}
     },
