@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee98981f-8e26-4175-bfbf-9ec29ad0b511" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/aframe/src/examples.js" afterPath="$PROJECT_DIR$/aframe/src/examples.js" />
+      <change beforePath="$PROJECT_DIR$/aframe/examples/mobile-performance.html" afterPath="$PROJECT_DIR$/aframe/examples/mobile-performance.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,8 +52,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aframe/examples/mobile-performance.html" />
         <option value="$PROJECT_DIR$/aframe/src/examples.js" />
+        <option value="$PROJECT_DIR$/aframe/examples/mobile-performance.html" />
       </list>
     </option>
   </component>
@@ -151,12 +151,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519703767631</updated>
-      <workItem from="1519703770849" duration="8105000" />
+      <workItem from="1519703770849" duration="8209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8105000" />
+    <option name="totallyTimeSpent" value="8209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
