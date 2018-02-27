@@ -1,9 +1,9 @@
 function pressButton() {
-    var a = document.querySelector('a');
-    console.log(a);
+    var box = document.getElementById('boxExample');
+    box.setAttribute('position', '0 0 -1');
 }
 
-AFRAME.registerComponent('press', {
+AFRAME.registerComponent('press', 
     schema: {type: 'number'},
 
     init: function () {
