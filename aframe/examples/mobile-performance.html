@@ -14,7 +14,10 @@
 		</a-assets>
 
 		<a-marker-camera type='pattern' preset='custom' url='../../data/data/patt.dirstuff'>
-			<a-entity cursor press_click="color: blue" scale="0.4 0.4 0.4" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+			<a-entity cursor="fuse: true; fuseTimeout: 500" cursor press_click="color: blue"
+					  scale="0.4 0.4 0.4" obj-model="obj: #tree-obj; mtl: #tree-mtl">
+
+			</a-entity>
 		</a-marker-camera>
 	</a-scene>
 
