@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
 <!-- three.js library -->
@@ -155,10 +156,21 @@
 	scene.add(markerRoot)
 
 	if( changeMatrixMode === 'modelViewMatrix' ){
-		var markerControls = new THREEx.ArMarkerControls(arContext, markerRoot, arProfile.defaultMarkerParameters)		
+		        var markerControls = new THREEx.ArMarkerControls(arContext, markerRoot, {
+               		 type : 'pattern',
+               		 patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.dirstuff',
+			})
+
+		//var markerControls = new THREEx.ArMarkerControls(arContext, markerRoot, arProfile.defaultMarkerParameters)		
 	}else if( changeMatrixMode === 'cameraTransformMatrix' ){
-		var markerControls = new THREEx.ArMarkerControls(arContext, camera, arProfile.defaultMarkerParameters)
+                   var markerControls = new THREEx.ArMarkerControls(arContext, camera, {
+                         type : 'pattern',
+                         patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.dirstuff',
+                      })
+
+		//var markerControls = new THREEx.ArMarkerControls(arContext, camera, arProfile.defaultMarkerParameters)
 	}else console.assert(false)
+
 // FIXME tango - the pickability is on the marker
 // - aka handle the object positioning in a special function of ArMarkerControls
 // - arkitanchor is like ArMarkerControls

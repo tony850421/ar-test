@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- include aframe -->
+<script src="vendor/aframe/build/aframe.js"></script>
+<!-- include aframe-ar.js -->
+<script src="../build/aframe-ar.js"></script>
+
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+    <a-scene>
+
+  <a-assets>
+    <a-asset-item id="tree-obj" src="monkey.obj"></a-asset-item>
+    <a-asset-item id="tree-mtl" src="monkey.mtl"></a-asset-item>
+  </a-assets>
+
+  <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+
+    </a-scene>
+</body>
+</html>

@@ -140,8 +140,8 @@
 	scene.add(markerRoot)
 	var artoolkitMarker = new THREEx.ArMarkerControls(arToolkitContext, markerRoot, {
 		type : 'pattern',
-		patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.hiro',
-		// patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.kanji',
+		//patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.hiro',
+		 patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.dirstuff',
 	})
 
 	//////////////////////////////////////////////////////////////////////////////////
@@ -242,7 +242,8 @@
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
 	//////////////////////////////////////////////////////////////////////////////////
-	var stats = new Stats();
+
+	// var stats = new Stats();
 	// document.body.appendChild( stats.dom );
 	// render the scene
 	onRenderFcts.push(function(){
