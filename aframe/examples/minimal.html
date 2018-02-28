@@ -1,8 +1,12 @@
 <!-- Augmented Reality on the Web in 10 lines of html! https://github.com/jeromeetienne/ar.js --> 
-<script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+<!-- <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script> -->
+
+<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
 <script src="../build/aframe-ar.min.js"></script>
+
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded arjs='sourceType: webcam;' cursor="rayOrigin: mouse">
+<!-- 	<a-scene embedded> -->
 		
 		<a-box position="0 3.5 -2" rotation="30 30 0" color="skyblue"
              		event-set__enter="_event: mouseenter; material.color: yellowgreen; scale: 3 1 1"
@@ -19,6 +23,6 @@
 		</a-entity>
 		</a-entity>
 		
-		<a-marker-camera type='pattern' preset='custom' url='../data/data/patt.dirstuff'></a-marker-camera>
+<!-- 		<a-marker-camera type='pattern' preset='custom' url='../data/data/patt.dirstuff'></a-marker-camera> -->
 	</a-scene>
 </body>
