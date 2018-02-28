@@ -20,12 +20,12 @@
       <file leaf-file-name="mobile-performance.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aframe/examples/mobile-performance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="176">
+              <caret line="28" column="85" lean-forward="true" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
               <folding>
-                <element signature="n#style#0;n#h4#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#1;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#1;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -157,12 +157,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519703767631</updated>
       <workItem from="1519703770849" duration="15446000" />
-      <workItem from="1519786543408" duration="2336000" />
+      <workItem from="1519786543408" duration="2489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17782000" />
+    <option name="totallyTimeSpent" value="17935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -230,9 +230,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -361,12 +361,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aframe/examples/mobile-performance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="176">
+          <caret line="28" column="85" lean-forward="true" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
