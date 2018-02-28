@@ -3,10 +3,10 @@ function pressButton() {
     box.setAttribute('position', '1 0 -1');
 }
 
-function horizontalScroll() {
+function scroll() {
     var scrollH = document.getElementById('horizontal').value;
-    console.log(scrollH + " value");
+    var scrollV = document.getElementById('vertical').value;
 
     var box = document.getElementById('monkeyObject');
-    box.setAttribute('position', {x:scrollH, y:0, z:0});
+    box.setAttribute('position', {x:scrollH, y:scrollV, z:0});
 }
