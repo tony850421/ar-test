@@ -1,8 +1,8 @@
 <!-- Augmented Reality on the Web in 10 lines of html! https://github.com/jeromeetienne/ar.js --> 
 <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
-<script src="../build/aframe-ar.min.js"></script>
+
 <script>
-// 	import flattenDeep from 'lodash.flattendeep'
+import flattenDeep from 'lodash.flattendeep'
 
 if (typeof AFRAME === 'undefined') {
 	throw 'mouse-cursor Component attempted to register before AFRAME was available.'
@@ -483,6 +483,7 @@ AFRAME.registerComponent('mouse-cursor', {
 
 })
 </script>
+<script src="../build/aframe-ar.min.js"></script>
 
 <body style='margin : 0px; overflow: hidden;'>
 <!-- 	<a-scene embedded arjs='sourceType: webcam;' cursor="rayOrigin: mouse"> -->
