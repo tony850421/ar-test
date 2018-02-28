@@ -58,7 +58,6 @@ function ZRotate() {
 
 function scaleObject() {
     scale = document.getElementById('scale').value;
-    console.log(scale + " scale");
 
     var box = document.getElementById('monkeyObject');
     box.setAttribute('scale', {x:scale, y:scale, z:scale});
