@@ -72,6 +72,13 @@ function startup() {
 function handleStart(evt) {
     evt.preventDefault();
     console.log("touchstart.");
+
+    var touches = evt.changedTouches;
+
+    for (var i = 0; i < touches.length; i++) {
+        console.log("touchstart:" + touches[i].pageX + " " + touches[i].pageY + " ..." + i);
+        ongoingTouches.push(copyTouch(touches[i]));
+    }
 }
 
 function handleEnd(evt) {
@@ -87,6 +94,13 @@ function handleCancel(evt) {
 function handleMove(evt) {
     evt.preventDefault();
     console.log("touchMove.");
+
+    var touches = evt.changedTouches;
+
+    for (var i = 0; i < touches.length; i++) {
+        console.log("touchstart:" + touches[i].pageX + " " + touches[i].pageY + " ..." + i);
+        ongoingTouches.push(copyTouch(touches[i]));
+    }
 }
 
 startup();
