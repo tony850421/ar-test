@@ -6,24 +6,29 @@
 <script src="aframe-mouse-cursor-component.min.js"></script>
 
 <body style='margin : 0px; overflow: hidden;'>
-	<a-scene embedded arjs='sourceType: webcam;'>
-<!-- 	<a-scene embedded> -->
+	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_matrix; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 180'>
+		 <a-assets>
+		    <a-asset-item id="tree-obj" src="monkey.obj"></a-asset-item>
+		    <a-asset-item id="tree-mtl" src="monkey.mtl"></a-asset-item>
+		</a-assets>
+
+		<a-marker-camera type='pattern' preset='custom' url='../../data/data/patt.dirstuff'>
+<!-- 			<a-entity id="monkeyObject" scale="0.4 0.4 0.4" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity> -->
 		
-		<a-box position="0 3.5 -2" rotation="30 30 0" color="skyblue"
-             		event-set__enter="_event: mouseenter; material.color: yellowgreen; scale: 3 1 1"
-             		event-set__leave="_event: mouseleave; material.color: skyblue; scale: 1 1 1">
+			<a-box position="0 3.5 -2" rotation="30 30 0" color="skyblue"
+				event-set__enter="_event: mouseenter; material.color: yellowgreen; scale: 3 1 1"
+				event-set__leave="_event: mouseleave; material.color: skyblue; scale: 1 1 1">
+
+				<a-animation attribute="rotation" begin="click" dur="500" fill="backwards" to="30 30 360"></a-animation>
+			</a-box>
 			
-        		<a-animation attribute="rotation" begin="click" dur="500" fill="backwards" to="30 30 360"></a-animation>
-	      </a-box>
-
-	      <a-sky color="pink"></a-sky>
-
+		</a-marker-camera>
+		
 	      <a-entity position="0 1.8 4">
 		<a-entity camera look-controls mouse-cursor>
 		  <a-cursor fuse="true" color="yellow"></a-cursor>
 		</a-entity>
 		</a-entity>
 		
-<!-- 		<a-marker-camera type='pattern' preset='custom' url='../data/data/patt.dirstuff'></a-marker-camera> -->
 	</a-scene>
 </body>
