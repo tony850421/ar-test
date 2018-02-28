@@ -34,6 +34,7 @@ function ZMove() {
 
 function HRotate() {
     rotateH = document.getElementById('rotateH').value;
+    console.log(rotateH + " rotateH");
 
     var box = document.getElementById('monkeyObject');
     box.setAttribute('rotation', {x:rotateH, y:rotateV, z:rotateZ});
@@ -41,6 +42,7 @@ function HRotate() {
 
 function VRotate() {
     rotateV = document.getElementById('rotateV').value;
+    console.log(rotateV + " rotateV");
 
     var box = document.getElementById('monkeyObject');
     box.setAttribute('rotation', {x:rotateH, y:rotateV, z:rotateZ});
@@ -48,6 +50,7 @@ function VRotate() {
 
 function ZRotate() {
     rotateZ = document.getElementById('rotateZ').value;
+    console.log(rotateZ + " rotateZ");
 
     var box = document.getElementById('monkeyObject');
     box.setAttribute('rotation', {x:rotateH, y:rotateV, z:rotateZ});
