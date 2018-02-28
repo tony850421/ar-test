@@ -97,7 +97,7 @@ function handleMove(evt) {
     var touches = evt.changedTouches;
 
     for (var i = 0; i < touches.length; i++) {
-        console.log("touchstart:" + touches[i].pageX + " " + touches[i].pageY + " ..." + i);
+        console.log("touchMove:" + touches[i].pageX + " " + touches[i].pageY + " ..." + i);
     }
 }
 
