@@ -57,3 +57,14 @@ function scaleObject() {
     var box = document.getElementById('monkeyObject');
     box.setAttribute('scale', {x:scale, y:scale, z:scale});
 }
+
+function tap() {
+    alert("tap");
+}
+
+function start() {
+    var el = document.querySelector('body');
+    el.addEventListener("click", tap, false);
+}
+
+start();
