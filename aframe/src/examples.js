@@ -77,7 +77,6 @@ function handleStart(evt) {
 
     for (var i = 0; i < touches.length; i++) {
         console.log("touchstart:" + touches[i].pageX + " " + touches[i].pageY + " ..." + i);
-        ongoingTouches.push(copyTouch(touches[i]));
     }
 }
 
@@ -99,7 +98,6 @@ function handleMove(evt) {
 
     for (var i = 0; i < touches.length; i++) {
         console.log("touchstart:" + touches[i].pageX + " " + touches[i].pageY + " ..." + i);
-        ongoingTouches.push(copyTouch(touches[i]));
     }
 }
 
