@@ -5,7 +5,6 @@ function pressButton() {
 
 function HorizontalMove() {
     var scrollH = document.getElementById('horizontal').value;
-    console.log(scrollH + " value H");
 
     var box = document.getElementById('monkeyObject');
     box.setAttribute('position', {x:scrollH});
@@ -13,8 +12,14 @@ function HorizontalMove() {
 
 function VerticalMove() {
     var scrollV = document.getElementById('vertical').value;
-    console.log(scrollV + " value H");
 
     var box = document.getElementById('monkeyObject');
     box.setAttribute('position', {y:scrollV});
+}
+
+function ZMove() {
+    var scrollZ = document.getElementById('top').value;
+
+    var box = document.getElementById('monkeyObject');
+    box.setAttribute('position', {z:scrollZ});
 }
