@@ -1,8 +1,3 @@
-function pressButton() {
-    var box = document.getElementById('monkeyObject');
-    box.setAttribute('position', '1 0 -1');
-}
-
 var scrollH = 0;
 var scrollV = 0;
 var scrollZ = 0;
