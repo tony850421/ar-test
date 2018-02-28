@@ -13,7 +13,7 @@
 		    <a-asset-item id="tree-mtl" src="monkey.mtl"></a-asset-item>
 		</a-assets>
 
-		<a-marker-camera type='pattern' preset='custom' url='../../data/data/patt.dirstuff'>
+		<a-marker-camera look-controls mouse-cursor type='pattern' preset='custom' url='../../data/data/patt.dirstuff'>
 <!-- 			<a-entity id="monkeyObject" scale="0.4 0.4 0.4" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity> -->
 		
 			<a-box rotation="30 30 0" color="skyblue"
@@ -23,13 +23,8 @@
 				<a-animation attribute="rotation" begin="click" dur="500" fill="backwards" to="30 30 360"></a-animation>
 			</a-box>
 			
+			<a-cursor fuse="true" color="yellow"></a-cursor>
 		</a-marker-camera>
-		
-	      <a-entity>
-		<a-entity camera look-controls mouse-cursor>
-		  <a-cursor fuse="true" color="yellow"></a-cursor>
-		</a-entity>
-		</a-entity>
 		
 	</a-scene>
 </body>
