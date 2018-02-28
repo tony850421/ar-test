@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mobile-performance.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mobile-performance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aframe/examples/mobile-performance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="34" column="89" lean-forward="false" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+            <state relative-caret-position="71">
+              <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#body#0;n#!!top" expanded="true" />
@@ -30,16 +30,22 @@
                 <element signature="n#style#0;n#input#1;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#2;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#2;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#3;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#3;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#4;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#4;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#5;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#5;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="examples.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="examples.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aframe/src/examples.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="110">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -54,14 +60,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rotateZ</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aframe/src/examples.js" />
         <option value="$PROJECT_DIR$/aframe/examples/mobile-performance.html" />
+        <option value="$PROJECT_DIR$/aframe/src/examples.js" />
       </list>
     </option>
   </component>
@@ -160,12 +171,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519703767631</updated>
       <workItem from="1519703770849" duration="15446000" />
-      <workItem from="1519786543408" duration="3133000" />
+      <workItem from="1519786543408" duration="3652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18579000" />
+    <option name="totallyTimeSpent" value="19098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -239,6 +250,12 @@
             <element signature="n#style#0;n#input#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#2;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#4;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#4;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#5;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#5;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -356,18 +373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/src/examples.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aframe/examples/mobile-performance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="34" column="89" lean-forward="false" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+        <state relative-caret-position="71">
+          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#body#0;n#!!top" expanded="true" />
@@ -375,7 +384,21 @@
             <element signature="n#style#0;n#input#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#2;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#4;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#4;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#5;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#5;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/src/examples.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
