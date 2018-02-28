@@ -4,6 +4,6 @@ function pressButton() {
 }
 
 function horizontalScroll() {
-    var scrollH = document.getElementById('horizontal').value();
+    var scrollH = document.getElementById('horizontal').value;
     console.log(scrollH + " value");
 }
