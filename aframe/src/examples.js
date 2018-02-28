@@ -6,4 +6,7 @@ function pressButton() {
 function horizontalScroll() {
     var scrollH = document.getElementById('horizontal').value;
     console.log(scrollH + " value");
+
+    var box = document.getElementById('monkeyObject');
+    box.setAttribute('position', {x:scrollH, y:0, z:0});
 }
