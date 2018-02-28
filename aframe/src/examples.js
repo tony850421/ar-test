@@ -56,7 +56,7 @@ function ZRotate() {
 }
 
 
-function scale() {
+function scaleObject() {
     scale = document.getElementById('scale').value;
     console.log(scale + " scale");
 
