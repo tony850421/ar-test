@@ -88,3 +88,5 @@ function handleMove(evt) {
     evt.preventDefault();
     console.log("touchMove.");
 }
+
+startup();
