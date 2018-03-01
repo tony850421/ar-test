@@ -11,12 +11,12 @@
 		 <a-assets>
 		    <a-asset-item id="tree-obj" src="monkey.obj"></a-asset-item>
 		    <a-asset-item id="tree-mtl" src="monkey.mtl"></a-asset-item>
-		    <a-asset-item id="tree-obj" src="emojiKiss.obj"></a-asset-item>
-		    <a-asset-item id="tree-mtl" src="emojiKiss.mtl"></a-asset-item>			 
+		    <a-asset-item id="emojiKiss-obj" src="emojiKiss.obj"></a-asset-item>
+		    <a-asset-item id="emojiKiss-mtl" src="emojiKiss.mtl"></a-asset-item>			 
 		</a-assets>
 
 		<a-marker-camera mouse-cursor type='pattern' preset='custom' url='../../data/data/patt.dirstuff'>
-			<a-entity click-drag id="monkeyObject" scale="0.4 0.4 0.4" obj-model="obj: #tree-obj; mtl: #tree-mtl">
+			<a-entity click-drag id="emojiKiss" scale="0.4 0.4 0.4" obj-model="obj: #emojiKiss-obj; mtl: #emojiKiss-mtl">
 				<a-animation attribute="rotation" begin="click" dur="500" fill="backwards" to="30 30 360"></a-animation>
 			</a-entity>
 			
