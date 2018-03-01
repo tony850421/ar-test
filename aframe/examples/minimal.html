@@ -4,7 +4,11 @@
 <!-- <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script> -->
 <script src="vendor/aframe/build/aframe.js"></script>
 <script src="../build/aframe-ar.js"></script>
-<script src="aframe-mouse-cursor-component.min.js"></script>
+<!-- <script src="aframe-mouse-cursor-component.min.js"></script> -->
+  <script src="https://unpkg.com/aframe-click-drag-component"></script>
+  <script>
+    registerAframeClickDragComponent(window.AFRAME);
+  </script>
 
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_matrix; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 180'>
@@ -13,17 +17,18 @@
 		    <a-asset-item id="tree-mtl" src="monkey.mtl"></a-asset-item>
 		</a-assets>
 
-		<a-marker-camera mouse-cursor type='pattern' preset='custom' url='../../data/data/patt.dirstuff'>
-<!-- 			<a-entity id="monkeyObject" scale="0.4 0.4 0.4" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity> -->
+<!-- 		<a-marker-camera mouse-cursor type='pattern' preset='custom' url='../../data/data/patt.dirstuff'> -->
+		<a-marker-camera look-controls-enabled="false" type='pattern' preset='custom' url='../../data/data/patt.dirstuff'>
+			<a-entity click-drag id="monkeyObject" scale="0.4 0.4 0.4" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
 		
-			<a-box rotation="30 30 0" color="skyblue"
+<!-- 			<a-box rotation="30 30 0" color="skyblue"
 				event-set__enter="_event: mouseup; material.color: yellowgreen; scale: 3 1 1"
 				event-set__leave="_event: mousedown; material.color: skyblue; scale: 1 1 1">
 
 				<a-animation attribute="rotation" begin="click" dur="500" fill="backwards" to="30 30 360"></a-animation>
 			</a-box>
 			
-			<a-cursor fuse="true" color="yellow"></a-cursor>
+			<a-cursor fuse="true" color="yellow"></a-cursor> -->
 		</a-marker-camera>
 		
 	</a-scene>
