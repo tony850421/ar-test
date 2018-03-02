@@ -95,9 +95,15 @@ function handleMove(evt) {
     console.log("touchMove.");
 
     var touches = evt.changedTouches;
+    
+    ongoingTouches.push(touches[0]);
 
     for (var i = 0; i < touches.length; i++) {
         console.log("touchMove:" + touches[i].pageX + " " + touches[i].pageY + " ..." + i);
+    }
+    
+    for (int i=0; i<ongoingTouches.length; i++){
+        console.log(ongoingTouches[i] + " ..." + i);
     }
 }
 
