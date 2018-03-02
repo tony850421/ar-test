@@ -12,15 +12,15 @@
 		<a-assets>
 		    <a-asset-item id="tree-obj" src="monkey.obj"></a-asset-item>
 		    <a-asset-item id="tree-mtl" src="monkey.mtl"></a-asset-item>
-<!-- 		    <a-asset-item id="emojiKiss-obj" src="emojiKiss.obj"></a-asset-item>
-		    <a-asset-item id="emojiKiss-mtl" src="emojiKiss.mtl"></a-asset-item>	 -->
+		    <a-asset-item id="emojiKiss-obj" src="emojiKiss.obj"></a-asset-item>
+		    <a-asset-item id="emojiKiss-mtl" src="emojiKiss.mtl"></a-asset-item>	
 		    <a-asset-item id="hand" src="hand.gltf"></a-asset-item>
 			 
 		</a-assets>
 
 <!-- 		<a-marker-camera mouse-cursor type='pattern' preset='custom' url='../../data/data/patt.hiro'> -->
-<!-- 			<a-entity click-drag id="emojiKiss" scale="0.4 0.4 0.4" rotation="90 0 180" obj-model="obj: #emojiKiss-obj; mtl: #emojiKiss-mtl"> -->
-			<a-entity gltf-model="#tree" scale="0.01 0.01 0.01"></a-entity>
+			<a-entity id="emojiKiss" scale="0.4 0.4 0.4" rotation="90 0 180" obj-model="obj: #emojiKiss-obj; mtl: #emojiKiss-mtl">
+<!-- 			<a-entity gltf-model="#tree" scale="0.01 0.01 0.01"></a-entity> -->
 				<a-animation attribute="rotation" begin="click" dur="500" fill="backwards" to="30 30 360"></a-animation>
 			</a-entity>
 			
